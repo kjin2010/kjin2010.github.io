@@ -4,7 +4,7 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> About Kevin Jin</title>
+    <title> Some cool stuff I did </title>
     <link href = "../css/style.css" type = "text/css" rel = "stylesheet"> 
 
     <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@500&display=swap" rel="stylesheet">
@@ -25,7 +25,12 @@
                 <a href = "about.html"> About </a>
             </li>
             <li>
-                <a href = "projects.html"> <u><b>Projects</b></u> </a>
+                <a href = "projects.html"> 
+                    <!-- <div class = "fill"> -->
+                    <div class = 'bigger'>
+                        <b> Projects </b>
+                    </div>
+                </a>
             </li>
             <li>
                 <a href = "fun_stuff.html"> Fun Stuff </a>
@@ -42,37 +47,91 @@
     <div class = "center-container">
         <div class = "page-content-block">
             <h1>
-                Projects
+                My Projects
             </h1>
+
+            <hr class = "rounded">
+
+            <div class = "project-block">
+                <h2 class = "project-header">
+                    Filesystem and Virtual Memory for OS
+                    <span style = "font-size: 15px; font-weight: lighter;">
+                        C, C++
+                    </span>
+                </h2>
+                <p class = "project-desc">
+                    Created an encrypted file/directory hierarchy with node-like data structures for a virtualized OS on QEMU.
+                    Also implemented virtual memory by setting up the page tables for virtual-to-physical address mappings.
+                    Added demand paging into virtual memory, an optimized method of reading disk pages into memory.
+                </p>
+            </div>
+
+            <hr class = "rounded">
+
+            <div class = "project-block">
+                <h2 class = "project-header">
+                    Carlae Interpreter
+                    <span style = "font-size: 15px; font-weight: lighter;">
+                        Python
+                    </span>
+                </h2>
+                <p class = "project-desc">
+                    Wrote an interpreter for Carlae, a custom Lisp dialect with similar syntax. 
+                    Implemented a code tokenizer, parser, and evaluator to read and execute programs. 
+                    Also created a REPL shell component for command line interpretation.
+                    Features include variable definition, functions, list comprehension, lambdas, and environments. 
+                </p>
+            </div>
+
+    
+            <hr class = "rounded">
+
             <div class = "project-block">
                 <h2 class = "project-header">
                     Recime
+                    <span style = "font-size: 15px; font-weight: lighter;">
+                        Python, HTML
+                    </span>
                 </h2>
+                <p class = "project-desc">
+                    Built a digital tool that scrapes and stores information from online and custom-made recipes. 
+                    Provides search functionality for specific recipes using keywords like ingredients, cooking techniques, and personal notes.
+                    Uses custom resource file storage and serialization hierarchy, allowing dynamic features like tags and cookbooks.
+                </p>
             </div>
+            
+            <hr class = "rounded">
+
+            <div class = "project-block">
+                <h2 class = "project-header">
+                    NBA Data Analysis 
+                    <span style = "font-size: 15px; font-weight: lighter;">
+                        Python (pandas, sklearn, seaborn)
+                    </span>
+                </h2>
+                <p class = "project-desc">
+                    Created a notebook analyzing NBA shot data from <a target = "_blank" href = "https://www.kaggle.com/"> kaggle </a> to pinpoint why athletes play worse on the road and if home-court advantage actually exists.
+                    Used pandas to organize datasets, sklearn to build models, and seaborn to clearly display results.
+                </p>
+            </div>
+
+            <hr class = "rounded">
+
             <div class = "project-block">
                 <h2 class = "project-header">
                     Webcrawler 
                     <span style = "font-size: 15px; font-weight: lighter;">
-                        Java, html, 
+                        Java, bash, HTML
                     </span>
                 </h2>
                 <p class = "project-desc">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dignissimos, alias sit ipsa magnam, nam nemo vero cumque aliquid porro dolor voluptate, quae harum iste exercitationem! Ipsam dolore cumque ducimus.
+                    Built a search engine and web crawler that explores an isolated network of web-pages to create a web-index data structure that is stored in disk.
+                    Accepts and answers search queries that follow a set of boolean logic rules and finds all the pages that satisfy the query. 
+                    Created unit tests for web-crawling, query-parsing, and query logic support by building a small custom network of pages.
                 </p>
-                        <!-- <ul>
-                            <li>
-                                point 1
-                            </li>
-                            <li>
-                                point 2
-                            </li>
-                        </ul> -->
             </div>
-            <div class = "project-block">
-                <h2 class = "project-header">
-                    take 3
-                </h2>
-            </div>
+
+            <hr class = "rounded">
         </div>
     </div>
 

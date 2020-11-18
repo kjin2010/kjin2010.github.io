@@ -1,16 +1,24 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 
 .diagonal-box{
     position: absolute;
     width: 100%;
-    height: 420px;
+    height: 500px;
     top: 0px;
     left: 0px;
-    /* background-image: linear-gradient(45deg, aqu, #ff0099); */
-    background-color: aquamarine;
+    background-image: linear-gradient(45deg, #B0DEFF, #A0FFE6);
+    /* background-color: #A0FFE6; */
+    /* background-color: aquamarine; */
     z-index: -1;
 } 
 
@@ -27,6 +35,12 @@ body {
     transform-origin: top left;
     transform: skewY(3deg);
     z-index: -1;
+}
+
+.top-div {
+    /* border: 2px solid green; */
+    width: 100%;
+    position: absolute;
 }
 
 .home-header {
@@ -47,6 +61,13 @@ body {
     /* border: 2px solid red; */
     text-align: center;
     font-size: 150%;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.home-intro a {
+    text-decoration: underline;
+    color: black;
 }
 
 ul#center-tabs {
@@ -70,6 +91,7 @@ ul#center-tabs li a {
     height: 40px; */
     line-height: 40px;
     text-align: center;
+    font-size: large;
 }
 
 .home-tabs a {
@@ -78,9 +100,10 @@ ul#center-tabs li a {
 }
 
 .home-tabs a:hover {
-    color: grey;
+    color: #30475E;
     text-decoration: underline;
     transform: scale(1.15);
+    /* font-size: x-large; */
     font-weight: bold;
 }
 
@@ -96,21 +119,23 @@ ul#center-tabs li a {
 
 .footer-container {
     /* border: 2px solid maroon; */
+    background-color: white;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    z-index: 4;
 }
 
 .footer-links {
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* border: 2px solid green; */
     width: 180px;
     justify-content: space-around;
 }
@@ -139,10 +164,10 @@ ul#center-tabs li a {
 .name-container {
     position: absolute;
     /* border: 2px solid red; */
-    width: 30%;
+    width: 27%;
     top: 0;
     /* height: 150px; */
-    height: 35%;
+    height: 30%;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -150,7 +175,7 @@ ul#center-tabs li a {
 .tab-container {
     /* border: 2px solid red; */
     position: absolute;
-    height: 35%;
+    height: 30%;
     width: 40%;
     right: 0;
     top: 0;
@@ -169,30 +194,61 @@ ul#table-tab {
 
 ul#table-tab li {
     display: flex;
-    width: 80px;
+    /* width: 100px; */
+    width: 85px;
     height: 30px;
+    border-radius: 18px;
     /* border: 2px solid black; */
     float: left;
-    margin: auto auto;
+    /* margin: auto auto; */
+    margin: 0 4px;
+    font-family: 'Hind Vadodara', sans-serif;
+
+}
+
+ul#table-tab a .fill{
+    display: flex;
+    width: 100px; 
+    height: 30px;
+    border-radius: 18px; 
+    /* justify-content: center; */
+    /* margin: auto auto; */
+    flex: 0 0 auto;
+    background-color: #B0E0A8;
+}
+
+ul#table-tab li:hover {
+    /* background-color: #B0E0A8; */
 }
 
 ul#table-tab a:hover {
     transform: scale(1.15);
+    transform-origin: center;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 ul#table-tab a {
     margin: auto auto;
     text-decoration: none;
+    font-size: medium;
     color: black;
+}
+
+.bigger {
+    transform: scale(1.45);
+    transform-origin: center;
 }
 
 .name-button {
     /* border: 2px solid purple; */
     display: flex;
     position: absolute;
-    height: 30px;
-    width: 120px;
+    font-size: xx-large;
+    /* font-weight: bold; */
+    font-family: 'Hind Vadodara', sans-serif;
+    height: 45px;
+    width: 160px;
     bottom: 0;
     right: 0;
 }
@@ -205,10 +261,10 @@ ul#table-tab a {
 }
 
 .center-container {
-    /* border: 2px solid #AFF8DB; */
+    /* border: 2px dotted orange; */
     margin: 8% auto;
-    width: 45%;
-    height: 100%;
+    width: 40%;
+    height: fit-content;
     padding: 10px;
 }
 
@@ -220,11 +276,21 @@ ul#table-tab a {
     /* border: 2px dotted yellow; */
 }
 
+.page-content-block h1 {
+    padding: 0;
+    /* border: 2px solid blue; */
+    margin-bottom: 0;
+}
+
 .project-block {
     /* border: 2px dotted green; */
     display: flex;
     flex-direction: column;
-    padding: 10px 0;
+    /* padding: 13px 0; */
+    padding-top: 0;
+    padding-bottom: 13px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .project-header {
@@ -238,3 +304,58 @@ ul#table-tab a {
     /* margin-bottom: -15px; */
 }
 
+.project-desc a {
+    color: black;
+    text-decoration: underline;
+}
+
+.section-header {
+    /* border: 2px solid blue;  */
+    margin: 0; 
+    padding: 0;
+}
+
+.section-info {
+    /* border: 2px solid red;  */
+    font-size: larger;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-info a {
+    color: black;
+}
+
+.back-to-top {
+    /* border: 2px solid pink; */
+    margin-top: 5px;
+}
+
+.back-to-top a {
+    /* border: 2px dotted grey; */
+    text-decoration: none;
+    color: black;
+}
+
+.back-to-top a:hover {
+    font-weight: bold;
+}
+
+.contact-link {
+    font-weight: lighter;
+}
+
+.contact-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-link a:hover {
+    /* font-weight: bold; */
+    text-decoration: underline;
+}
+
+hr.rounded {
+    border-top: 1px solid grey;
+    background-color: transparent;
+}

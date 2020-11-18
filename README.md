@@ -2,9 +2,18 @@
 ## Goals
 - learn html
 - learn css
-- show projects 
 
 ## TODO
+### general
+- add solid background to table tabs 
+- image gallery for bread (https://www.w3schools.com/css/css_image_gallery.asp)
+- write about me page 
+- move diagonal further down (account for name and table tab shift)
+- change diagonal with linear gradient (https://stackoverflow.com/questions/44473615/how-to-create-a-diagonal-background-effect-using-css)
+
+### issues
+- name and table tabs shift to the right on fun stuff page 
+
 ### home page
 - name
 - intro
@@ -27,13 +36,15 @@
     - coding
     - running
     - baking 
+        - add image gallery (https://www.w3schools.com/css/css_image_gallery.asp)
 
 
 ### projects
 - file system
+- lisp interpreter
 - recime
+- nba data 
 - webcrawler
-- oil well modeling 
 
 
 ### fun stuff
@@ -51,6 +62,7 @@
 
 ### contact
 - blurb 
+- email
 - google form for anonymous feedback 
-- leave a comment 
+- leave a comment ??????
 
