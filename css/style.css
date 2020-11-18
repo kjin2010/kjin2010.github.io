@@ -16,9 +16,7 @@ html {
     height: 500px;
     top: 0px;
     left: 0px;
-    background-image: linear-gradient(45deg, #B0DEFF, #A0FFE6);
-    /* background-color: #A0FFE6; */
-    /* background-color: aquamarine; */
+    background-image: linear-gradient(0deg, #B0DEFF, #ADEBBE);
     z-index: -1;
 } 
 
