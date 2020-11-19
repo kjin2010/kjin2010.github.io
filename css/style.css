@@ -280,6 +280,7 @@ ul#table-tab a {
     padding: 0;
     /* border: 2px solid blue; */
     margin-bottom: 0;
+    /* margin-top: 0; */
 }
 
 .project-block {
@@ -328,7 +329,7 @@ ul#table-tab a {
 
 .back-to-top {
     /* border: 2px solid pink; */
-    margin-top: 5px;
+    margin: 13px 0 0;
 }
 
 .back-to-top a {
@@ -358,4 +359,50 @@ ul#table-tab a {
 hr.rounded {
     border-top: 1px solid grey;
     background-color: transparent;
+}
+
+.gallery-container {
+    /* border: 2px solid aqua; */
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-image {
+    /* border: 2px solid red; */
+    width: 28%;
+    height: 0;
+    padding-bottom: 51%;
+    margin: 25px 0;
+}
+
+p.gallery-date {
+    font-weight: bold; 
+    margin: 0px 0px 5px;
+    text-decoration: underline;
+
+}
+
+.gallery-container img {
+    width: 100%;
+    outline: 8px solid #30475E;
+}
+
+.gallery-desc {
+    margin-top: 12px;
+}
+
+.gallery-note {
+    margin: 0;
+    font-size: 80%;
+}
+
+.gallery-title {
+    /* border: 2px solid purple; */
+    width: 100%;
+    padding: 0;
+    margin: 10px 0px 10px;
+    text-align: center;
+    text-decoration: underline;
 }
