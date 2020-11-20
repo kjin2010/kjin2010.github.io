@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     position: relative;
-    min-width: 1200px;
+    /* min-width: 1200px; */
 }
 
 html {
@@ -371,10 +371,10 @@ hr.rounded {
 
 .gallery-image {
     /* border: 2px solid red; */
-    width: 28%;
-    height: 0;
-    padding-bottom: 51%;
-    margin: 25px 0;
+    width: 180px;
+    height: 335px;
+    margin: 5px 5px;
+    padding: 5px 5px;
 }
 
 p.gallery-date {
@@ -402,7 +402,7 @@ p.gallery-date {
     /* border: 2px solid purple; */
     width: 100%;
     padding: 0;
-    margin: 10px 0px 10px;
+    margin: 10px 0px 25px;
     text-align: center;
     text-decoration: underline;
 }
