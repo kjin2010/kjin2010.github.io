@@ -87,8 +87,6 @@ ul#center-tabs li {
 
 ul#center-tabs li a {
     display: block;
-    /* width: 120px;
-    height: 40px; */
     line-height: 40px;
     text-align: center;
     font-size: large;
@@ -103,7 +101,6 @@ ul#center-tabs li a {
     color: #30475E;
     text-decoration: underline;
     transform: scale(1.15);
-    /* font-size: x-large; */
     font-weight: bold;
 }
 
@@ -166,7 +163,6 @@ ul#center-tabs li a {
     /* border: 2px solid red; */
     width: 27%;
     top: 0;
-    /* height: 150px; */
     height: 30%;
     display: flex;
     flex-direction: row-reverse;
@@ -174,9 +170,11 @@ ul#center-tabs li a {
 
 .tab-container {
     /* border: 2px solid red; */
+    /* padding-left: 60px; */
+    /* padding-right: 60px; */
     position: absolute;
     height: 30%;
-    width: 40%;
+    width: 45%;
     right: 0;
     top: 0;
 }
@@ -195,37 +193,30 @@ ul#table-tab {
 ul#table-tab li {
     display: flex;
     /* width: 100px; */
-    width: 85px;
+    width: 105px;
     height: 30px;
     border-radius: 18px;
-    /* border: 2px solid black; */
     float: left;
-    /* margin: auto auto; */
     margin: 0 4px;
     font-family: 'Hind Vadodara', sans-serif;
-
 }
 
 ul#table-tab a .fill{
+    background-color: #B0E0A8;
     display: flex;
     width: 100px; 
     height: 30px;
     border-radius: 18px; 
-    /* justify-content: center; */
-    /* margin: auto auto; */
     flex: 0 0 auto;
-    background-color: #B0E0A8;
 }
 
+/* THIS IS FOR THE BACKGROUND BUBBLE FOR TABLE TABS */
 ul#table-tab li:hover {
-    /* background-color: #B0E0A8; */
-}
-
-ul#table-tab a:hover {
+    /* background-color: #77DD77; */
     transform: scale(1.15);
     transform-origin: center;
-    font-weight: bold;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 ul#table-tab a {
@@ -240,12 +231,15 @@ ul#table-tab a {
     transform-origin: center;
 }
 
+.bigger:hover {
+    background-color: transparent;
+}
+
 .name-button {
     /* border: 2px solid purple; */
     display: flex;
     position: absolute;
     font-size: xx-large;
-    /* font-weight: bold; */
     font-family: 'Hind Vadodara', sans-serif;
     height: 45px;
     width: 160px;
@@ -277,17 +271,15 @@ ul#table-tab a {
 }
 
 .page-content-block h1 {
-    padding: 0;
     /* border: 2px solid blue; */
+    padding: 0;
     margin-bottom: 0;
-    /* margin-top: 0; */
 }
 
 .project-block {
     /* border: 2px dotted green; */
     display: flex;
     flex-direction: column;
-    /* padding: 13px 0; */
     padding-top: 0;
     padding-bottom: 13px;
     padding-left: 0;
@@ -302,7 +294,6 @@ ul#table-tab a {
 .project-desc {
     /* border: 2px solid teal; */
     margin: 0;
-    /* margin-bottom: -15px; */
 }
 
 .project-desc a {
@@ -381,7 +372,6 @@ p.gallery-date {
     font-weight: bold; 
     margin: 0px 0px 5px;
     text-decoration: underline;
-
 }
 
 .gallery-container img {
