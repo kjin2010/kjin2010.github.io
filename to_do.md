@@ -6,11 +6,13 @@
 ## TODO
 ### general
 - add solid background to table tabs 
-- write about me page 
+    - idk if i want to do this anymore 
 - move diagonal further down (account for name and table tab shift)
     - maybe change diagonal with linear gradient (https://stackoverflow.com/questions/44473615/how-to-create-a-diagonal-background-effect-using-css)
 - change resume height (figure out best way to do it)
+    - kind of done ?
 - add links to bread terminology
+    - idk if necessary 
 
 ### issues
 
